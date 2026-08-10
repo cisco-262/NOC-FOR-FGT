@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NOC for FGT is a privacy-first FortiGate monitoring companion for iPhone and iPad.">
+  <title>NOC for FGT</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="NOC for FGT home">
+      <img src="assets/images/logo.png" alt="" class="brand-logo">
+      <span>NOC for FGT</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#overview">Overview</a>
+      <a href="#features">Features</a>
+      <a href="#security">Security</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-backdrop" src="assets/images/homepage.png" alt="NOC for FGT home dashboard screenshot">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <img src="assets/images/logo.png" alt="" class="hero-logo">
+        <p class="eyebrow">FortiGate visibility for iPhone and iPad</p>
+        <h1>NOC for FGT</h1>
+        <p class="hero-copy">
+          Monitor FortiGate health, interfaces, system status, and security posture from a focused native companion app built for operators.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#overview">Explore product</a>
+          <a class="button secondary" href="#privacy">Privacy model</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="overview" class="section intro-section">
+      <div class="section-copy">
+        <p class="eyebrow">Operational overview</p>
+        <h2>Designed around the device view operators open first.</h2>
+        <p>
+          NOC for FGT keeps the first screen practical: device reachability, health signals, interface state, system load, and quick access to diagnostics.
+        </p>
+      </div>
+      <div class="screenshot-pair">
+        <figure>
+          <img src="assets/images/overview.png" alt="FortiGate overview screen in NOC for FGT">
+          <figcaption>Overview dashboard</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/images/system.png" alt="FortiGate system status screen in NOC for FGT">
+          <figcaption>System status</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="features" class="section feature-band">
+      <div class="section-heading">
+        <p class="eyebrow">Core functions</p>
+        <h2>Built for daily FortiGate checks.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h3>Device overview</h3>
+          <p>See connection state, firmware, uptime, resource pressure, and live device identity in one place.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Interface monitoring</h3>
+          <p>Review link status, addressing, aliases, roles, traffic counters, and operational state without opening the firewall console.</p>
+        </article>
+        <article class="feature-card">
+          <h3>System trends</h3>
+          <p>Track CPU, memory, session, and throughput history so short spikes are easier to understand.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Security posture</h3>
+          <p>Surface security-relevant state such as services, protection status, and attention items from supported FortiGate APIs.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Diagnostics</h3>
+          <p>Keep routine read-only diagnostic checks close to the device context for faster troubleshooting.</p>
+        </article>
+        <article class="feature-card">
+          <h3>iPad layouts</h3>
+          <p>Use expanded layouts on larger screens for broader status panels and more comfortable monitoring sessions.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="security" class="section security-section">
+      <div>
+        <p class="eyebrow">Security model</p>
+        <h2>Direct device access, local-first handling.</h2>
+      </div>
+      <div class="security-list">
+        <p><strong>No cloud relay.</strong> The app is designed to connect directly to FortiGate devices configured by the user.</p>
+        <p><strong>Credentials stay local.</strong> Login data is handled on device and should be stored using the iOS Keychain.</p>
+        <p><strong>User-controlled certificate trust.</strong> When a trusted certificate exception is enabled, certificate fingerprints can be recorded so certificate changes are visible to the user.</p>
+        <p><strong>Read-focused workflows.</strong> Monitoring screens prioritize observation and diagnostics over broad configuration changes.</p>
+      </div>
+    </section>
+
+    <section id="privacy" class="section cta-section">
+      <div>
+        <p class="eyebrow">Ready for GitHub Pages</p>
+        <h2>A static product site with legal pages included.</h2>
+        <p>
+          This site is plain HTML and CSS. It can be published from a GitHub repository without a build step.
+        </p>
+      </div>
+      <div class="cta-actions">
+        <a class="button primary" href="privacy.html">Privacy Policy</a>
+        <a class="button secondary" href="terms.html">User Agreement</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>NOC for FGT is an independent product and is not affiliated with Fortinet, Inc.</p>
+    <p><a href="privacy.html">Privacy Policy</a> <span>/</span> <a href="terms.html">User Agreement</a></p>
+  </footer>
+</body>
+</html>
