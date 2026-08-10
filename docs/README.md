@@ -10,11 +10,3 @@ Static product website for GitHub Pages.
 - `assets/styles.css`: site styling
 - `assets/images/`: product logo and screenshots
 
-## GitHub Pages
-
-1. Upload the contents of this folder to a GitHub repository.
-2. In GitHub, open `Settings` -> `Pages`.
-3. Select the branch and root folder that contain `index.html`.
-4. Publish.
-
-No build step is required.
