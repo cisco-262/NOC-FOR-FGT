@@ -97,6 +97,9 @@ a {
   overflow: hidden;
   padding: 120px clamp(20px, 5vw, 72px) 72px;
   border-bottom: 1px solid var(--line);
+  background:
+    linear-gradient(90deg, rgba(6, 22, 46, 0.98) 0%, rgba(6, 22, 46, 0.9) 44%, rgba(6, 22, 46, 0.62) 100%),
+    linear-gradient(180deg, rgba(63, 140, 255, 0.16), rgba(64, 217, 255, 0.08) 52%, rgba(12, 94, 215, 0.14));
 }
 
 .hero-backdrop {
@@ -110,14 +113,6 @@ a {
   filter: drop-shadow(var(--shadow));
   opacity: 0.96;
   transform: translateX(-36%);
-}
-
-.hero-shade {
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(90deg, rgba(6, 22, 46, 0.98) 0%, rgba(6, 22, 46, 0.9) 44%, rgba(6, 22, 46, 0.38) 100%),
-    linear-gradient(180deg, rgba(63, 140, 255, 0.18), rgba(64, 217, 255, 0.08) 52%, rgba(12, 94, 215, 0.16));
 }
 
 .hero-content {
@@ -429,12 +424,6 @@ figcaption {
     bottom: -70px;
     width: min(86vw, 420px);
     transform: translateX(-50%);
-  }
-
-  .hero-shade {
-    background:
-      linear-gradient(180deg, rgba(6, 22, 46, 0.98) 0%, rgba(6, 22, 46, 0.92) 52%, rgba(6, 22, 46, 0.42) 100%),
-      linear-gradient(180deg, rgba(63, 140, 255, 0.18), rgba(64, 217, 255, 0.08));
   }
 
   .intro-section,
