@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://cisco-262.github.io/NOC-FOR-FGT/sitemap.xml
