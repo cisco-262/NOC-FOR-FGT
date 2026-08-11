@@ -27,31 +27,43 @@
       <h1>Privacy Policy</h1>
 
       <h2>1. Overview</h2>
-      <p>NOC for FGT is designed as a local-first FortiGate monitoring companion. This policy explains what the app and this website are intended to collect, store, and transmit.</p>
+      <p>NOC for FGT is a local-first FortiGate monitoring companion. The app connects from the user's iPhone or iPad to FortiGate devices configured by the user. Direct device monitoring does not require a NOC for FGT cloud account.</p>
 
       <h2>2. Website Data</h2>
-      <p>This static website does not include account registration, forms, advertising trackers, or analytics scripts. If hosted on GitHub Pages or another hosting provider, that provider may process basic technical logs such as IP address, user agent, request time, and requested URL according to its own policies.</p>
+      <p>This static website does not include account registration, contact forms, advertising trackers, or analytics scripts. Hosting providers can process basic technical logs such as IP address, user agent, request time, and requested URL under their own policies.</p>
 
-      <h2>3. App Data</h2>
-      <p>The app may store device connection details, preferences, trusted certificate fingerprints, and authentication material needed to connect to user-configured FortiGate devices. Sensitive credentials should be stored using platform-provided secure storage such as the iOS Keychain.</p>
+      <h2>3. Device Configuration Data</h2>
+      <p>The app stores FortiGate device records locally on the user's device. These records include device names, hosts or IP addresses, HTTPS management ports, usernames, user preferences, certificate trust settings, and certificate fingerprint metadata where applicable.</p>
 
-      <h2>4. No Cloud Backend</h2>
-      <p>NOC for FGT does not require a product-operated cloud relay to monitor your FortiGate devices. Device communication is intended to occur directly between the app and the FortiGate address configured by the user.</p>
+      <h2>4. Credentials and Authentication Data</h2>
+      <p>FortiGate passwords are stored locally using the iOS Keychain. FortiToken / OTP codes are used for authentication and are not included in backups. Backup exports do not include passwords, OTP codes, session cookies, CSRF tokens, authorization headers, API tokens, bearer tokens, or Keychain secrets.</p>
 
-      <h2>5. Certificate Trust</h2>
-      <p>If the user enables a trusted certificate option, the app may record certificate fingerprint information locally to help detect certificate changes during future connections. Certificate names or chain properties may be shown for visibility, but the user's explicit trust decision controls whether an exception is allowed.</p>
+      <h2>5. Monitoring and History Data</h2>
+      <p>The app stores monitoring information locally to support device status and historical trend views. This can include system health, CPU, memory, active sessions, interface status, WAN traffic, topology-related interface information, diagnostics, and locally collected history samples.</p>
 
-      <h2>6. Data Sharing</h2>
-      <p>The product does not sell personal data. Data may be shared only when required to operate user-requested services, comply with law, protect rights and safety, or diagnose issues that the user intentionally reports.</p>
+      <h2>6. App Lock</h2>
+      <p>Optional App Lock can use Face ID, Touch ID, or device passcode through Apple's local device authentication APIs to help protect access to saved devices and monitoring data. App Lock protects access to the app interface when enabled; it does not replace iOS device security or FortiGate account security.</p>
 
-      <h2>7. User Responsibility</h2>
-      <p>Users are responsible for ensuring they have authorization to connect to the FortiGate devices they configure, and for protecting device credentials, network access, and exported diagnostic material.</p>
+      <h2>7. Certificate Trust</h2>
+      <p>When the user enables a trusted certificate option, the app records certificate fingerprint information locally to help identify certificate changes during future connections. Certificate names and chain information can be shown for visibility. User-controlled certificate trust determines whether an exception is allowed.</p>
 
-      <h2>8. Changes</h2>
-      <p>This policy may be updated as the product evolves. Material changes should be reflected by updating the effective date on this page.</p>
+      <h2>8. Backup and Restore</h2>
+      <p>Backup exports are for app configuration migration and recovery. Exported device data can include device name, host, port, username, certificate trust preference, and reference certificate fingerprint metadata. Authentication secrets are excluded from backup exports.</p>
 
-      <h2>9. Contact</h2>
-      <p>For privacy requests, contact <a href="mailto:support@opshome.run">support@opshome.run</a> or use the support contact provided with the App Store listing or project repository.</p>
+      <h2>9. Data Sharing</h2>
+      <p>NOC for FGT does not sell personal data. The app does not use advertising trackers or analytics SDKs. Data is shared only when required to operate user-requested services, comply with law, protect rights and safety, or diagnose issues that the user intentionally reports.</p>
+
+      <h2>10. Retention and Deletion</h2>
+      <p>Device records, preferences, monitoring history, and certificate trust metadata remain on the user's device until the user deletes them or removes the app. Device deletion uses the app's local cleanup path to remove associated local device data and stored credentials where supported by the platform.</p>
+
+      <h2>11. User Responsibility</h2>
+      <p>Users are responsible for connecting only to FortiGate devices and networks they own or are authorized to manage, and for protecting device credentials, network access, and exported diagnostic material.</p>
+
+      <h2>12. Changes</h2>
+      <p>This policy can be updated as the product evolves. Material changes are reflected by updating the effective date on this page.</p>
+
+      <h2>13. Contact</h2>
+      <p>For privacy requests, contact <a href="mailto:support@opshome.run">support@opshome.run</a>.</p>
     </article>
   </main>
 
@@ -59,7 +71,7 @@
     <div class="footer-brand">
       <img src="assets/images/logo.png" alt="" class="footer-logo">
       <div>
-        <strong>OpsHome NOC</strong>
+        <strong>NOC for FGT</strong>
         <p>NOC for FGT privacy policy.</p>
       </div>
     </div>
@@ -68,7 +80,9 @@
       <a href="https://app.opshome.run/" target="_blank" rel="noopener">OpsHome NOC</a>
       <a href="https://docs.opshome.run/" target="_blank" rel="noopener">Docs</a>
       <a href="terms.html">User Agreement</a>
+      <a href="mailto:support@opshome.run">Support</a>
     </div>
+    <p class="footer-note">NOC for FGT is an independent application and is not affiliated with or endorsed by Fortinet, Inc. Fortinet and related product names are trademarks of their respective owners.</p>
   </footer>
 </body>
 </html>

@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="assets/images/logo.png" alt="NOC for FGT Logo" width="120">
 
@@ -13,14 +13,14 @@ A local-first iPhone and iPad companion app for FortiGate monitoring, diagnostic
 
 <br>
 
-[![Website](https://img.shields.io/badge/Website-NOC--FOR--FGT-0D96F6)](https://cisco-262.github.io/NOC-FOR-FGT/)
-[![Platform](https://img.shields.io/badge/Platform-iPhone%20%26%20iPad-lightgrey?logo=apple)](https://cisco-262.github.io/NOC-FOR-FGT/)
-[![Mode](https://img.shields.io/badge/Mode-Local--first-168B59)](https://cisco-262.github.io/NOC-FOR-FGT/)
-[![Status](https://img.shields.io/badge/App_Store-Coming_Soon-6B7280)](https://cisco-262.github.io/NOC-FOR-FGT/)
+[![Website](https://img.shields.io/badge/Website-NOC--FOR--FGT-0D96F6)](https://fgt.opshome.run/)
+[![Platform](https://img.shields.io/badge/Platform-iPhone%20%26%20iPad-lightgrey?logo=apple)](https://fgt.opshome.run/)
+[![Mode](https://img.shields.io/badge/Mode-Local--first-168B59)](https://fgt.opshome.run/)
+[![Status](https://img.shields.io/badge/App_Store-Coming_Soon-6B7280)](https://fgt.opshome.run/)
 
 <br>
 
-[English](#english) · [简体中文](#简体中文) · [Privacy](https://cisco-262.github.io/NOC-FOR-FGT/privacy.html) · [Terms](https://cisco-262.github.io/NOC-FOR-FGT/terms.html)
+[English](#english) · [简体中文](#简体中文) · [Privacy](https://fgt.opshome.run/privacy.html) · [Terms](https://fgt.opshome.run/terms.html)
 
 <br>
 
@@ -51,6 +51,7 @@ The app connects directly to FortiGate devices configured by the user and presen
 | **Diagnostics** | Inspect supported API, endpoint, and connection behavior while troubleshooting. |
 | **Backup and restore** | Export and restore app configuration data while excluding authentication secrets. |
 | **Built-in Demo Mode** | Explore the main monitoring experience without connecting to a physical FortiGate. |
+| **Optional App Lock** | Use Face ID, Touch ID, or device passcode to help protect access to saved devices and monitoring data. |
 | **Local-first design** | FortiGate passwords are stored using the iOS Keychain. Direct monitoring does not require a NOC for FGT cloud account. |
 
 ### How It Works
@@ -113,7 +114,9 @@ NOC for FGT does **not** require:
 
 Backup exports are designed not to include passwords, OTP codes, session cookies, CSRF tokens, or other authentication secrets.
 
-Read the complete [Privacy Policy](https://cisco-262.github.io/NOC-FOR-FGT/privacy.html).
+Optional App Lock can use Face ID, Touch ID, or device passcode through Apple's local device authentication APIs to help protect access to saved devices and monitoring data.
+
+Read the complete [Privacy Policy](https://fgt.opshome.run/privacy.html).
 
 ### Monitoring Scope and Limitations
 
@@ -163,7 +166,7 @@ No placeholder App Store URL is used.
 
 For support, privacy questions, or troubleshooting:
 
-- Visit the [NOC for FGT website](https://cisco-262.github.io/NOC-FOR-FGT/)
+- Visit the [NOC for FGT website](https://fgt.opshome.run/)
 - Include the app version, iOS version, FortiGate model, FortiOS version, and a short description of the issue
 - Do not send FortiGate passwords, OTP codes, private keys, session cookies, or sensitive configuration exports
 
@@ -190,6 +193,7 @@ For support, privacy questions, or troubleshooting:
 | **诊断能力** | 辅助查看支持的 API、端点和连接行为，便于排查问题。 |
 | **备份与恢复** | 支持导出和恢复应用配置数据，同时排除认证敏感信息。 |
 | **内置 Demo Mode** | 无需真实 FortiGate，也可以体验主要监控界面。 |
+| **可选 App Lock** | 可使用 Face ID、Touch ID 或设备密码保护已保存设备和监控数据的访问入口。 |
 | **本地优先设计** | FortiGate 密码使用 iOS Keychain 保存。直接监控不需要 NOC for FGT 云账号。 |
 
 ### 工作方式
@@ -252,7 +256,9 @@ NOC for FGT 直接监控不需要：
 
 备份导出设计上不会包含密码、OTP、session cookie、CSRF token 或其他认证敏感信息。
 
-查看完整的[隐私政策](https://cisco-262.github.io/NOC-FOR-FGT/privacy.html)。
+可选 App Lock 通过 Apple 本地设备认证能力使用 Face ID、Touch ID 或设备密码，帮助保护已保存设备和监控数据的 App 访问入口。
+
+查看完整的[隐私政策](https://fgt.opshome.run/privacy.html)。
 
 ### 监控范围与限制
 
@@ -302,7 +308,7 @@ Coming to the App Store
 
 如需产品支持、隐私咨询或问题排查：
 
-- 访问 [NOC for FGT 网站](https://cisco-262.github.io/NOC-FOR-FGT/)
+- 访问 [NOC for FGT 网站](https://fgt.opshome.run/)
 - 提供应用版本、iOS 版本、FortiGate 型号、FortiOS 版本和简短的问题描述
 - 请勿发送 FortiGate 密码、OTP、私钥、session cookie 或敏感配置导出
 
@@ -324,7 +330,7 @@ NOC for FGT is an independent application and is not affiliated with, endorsed b
 **Local-first. Practical. Focused.**  
 **本地优先、实用、专注。**
 
-[Website](https://cisco-262.github.io/NOC-FOR-FGT/) · [Privacy](https://cisco-262.github.io/NOC-FOR-FGT/privacy.html) · [Terms](https://cisco-262.github.io/NOC-FOR-FGT/terms.html) · [OpsHome NOC](https://app.opshome.run)
+[Website](https://fgt.opshome.run/) · [Privacy](https://fgt.opshome.run/privacy.html) · [Terms](https://fgt.opshome.run/terms.html) · [OpsHome NOC](https://app.opshome.run)
 
 <br>
 
