@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NOC for FGT Support - Setup, Connectivity & Troubleshooting</title>
+  <meta name="description" content="Get help with NOC for FGT setup, FortiGate connectivity, 2FA, Demo Mode, monitoring, history, backup, and troubleshooting.">
+  <link rel="canonical" href="https://fgt.opshome.run/support.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="NOC for FGT Support">
+  <meta property="og:description" content="Help with setup, connectivity, monitoring, Demo Mode, and common FortiGate connection issues.">
+  <meta property="og:url" content="https://fgt.opshome.run/support.html">
+  <meta property="og:image" content="https://fgt.opshome.run/assets/images/homepage.png">
+  <meta property="og:site_name" content="NOC for FGT">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NOC for FGT Support">
+  <meta name="twitter:description" content="Help with NOC for FGT setup, connectivity, monitoring, Demo Mode, and troubleshooting.">
+  <meta name="twitter:image" content="https://fgt.opshome.run/assets/images/homepage.png">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/images/logo.png">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header compact">
+    <a class="brand" href="index.html" aria-label="NOC for FGT home">
+      <img src="assets/images/logo.png" alt="" class="brand-logo">
+      <span>NOC for FGT</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="#getting-started">Setup</a>
+      <a href="#connection">Connection</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="mailto:support@opshome.run">Email Support</a>
+  </header>
+
+  <main>
+    <section class="support-hero">
+      <div class="support-hero-inner">
+        <p class="eyebrow">Support</p>
+        <h1>NOC for FGT Support</h1>
+        <p class="hero-copy">Help with setup, connectivity, monitoring, Demo Mode, and common FortiGate connection issues.</p>
+        <p class="hero-support">NOC for FGT is an independent application for monitoring FortiGate environments from iPhone and iPad.</p>
+      </div>
+    </section>
+
+    <section class="section support-section">
+      <div class="section-heading">
+        <p class="eyebrow">Quick help</p>
+        <h2>Start with the area that matches your issue.</h2>
+      </div>
+      <div class="support-grid">
+        <a class="support-card" href="#getting-started"><strong>Getting Started</strong><span>Add your FortiGate and begin monitoring system and network status.</span></a>
+        <a class="support-card" href="#connection"><strong>Connection Help</strong><span>Troubleshoot HTTPS management access, credentials, and network reachability.</span></a>
+        <a class="support-card" href="#two-factor"><strong>Two-Factor Authentication</strong><span>Use FortiToken / OTP when 2FA is enabled on the configured FortiGate account.</span></a>
+        <a class="support-card" href="#demo"><strong>Demo Mode</strong><span>Explore the main monitoring experience without connecting to a physical FortiGate.</span></a>
+        <a class="support-card" href="#history"><strong>Historical Trends</strong><span>Understand available CPU, memory, session, and traffic history.</span></a>
+        <a class="support-card" href="#backup"><strong>Backup & Restore</strong><span>Export and import supported device configuration information.</span></a>
+      </div>
+    </section>
+
+    <section id="getting-started" class="section support-section light-section">
+      <div class="section-heading">
+        <p class="eyebrow">Getting started</p>
+        <h2>From device setup to monitoring.</h2>
+      </div>
+      <div class="support-columns">
+        <article>
+          <h3>Step 1 - Add your device</h3>
+          <ul>
+            <li>Device name</li>
+            <li>IP address or hostname</li>
+            <li>HTTPS management port</li>
+            <li>Username</li>
+            <li>Password</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Step 2 - Connect</h3>
+          <p>NOC for FGT connects directly from your iPhone or iPad to the FortiGate address you configure.</p>
+          <p>Make sure your iPhone or iPad can reach the FortiGate management interface on the network you are using.</p>
+        </article>
+        <article>
+          <h3>Step 3 - Monitor</h3>
+          <ul>
+            <li>System health</li>
+            <li>CPU and memory</li>
+            <li>Active sessions</li>
+            <li>Interfaces and WAN traffic</li>
+            <li>Topology and FortiGuard status</li>
+            <li>Historical trends and diagnostics</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="connection" class="section support-section">
+      <div class="section-heading">
+        <p class="eyebrow">Connection & login</p>
+        <h2>Check reachability before assuming the password is wrong.</h2>
+      </div>
+      <ol class="support-list">
+        <li>Confirm the FortiGate address is reachable.</li>
+        <li>Confirm HTTPS management access is enabled.</li>
+        <li>Confirm the management port.</li>
+        <li>Confirm the username and password.</li>
+        <li>Confirm the account has permission to view the required status information.</li>
+        <li>If 2FA is enabled, enter the requested FortiToken / OTP code.</li>
+      </ol>
+      <div class="support-note">
+        <h3>Hostname / IP</h3>
+        <p>You can connect using the hostname or IP address configured for your FortiGate management interface. Local Network permission may be required by iOS when connecting directly to a FortiGate on your LAN.</p>
+      </div>
+      <div class="support-note">
+        <h3>HTTPS / Certificate Trust</h3>
+        <p>Some FortiGate environments use self-signed or privately issued certificates. NOC for FGT may allow user-controlled certificate trust depending on the configured connection.</p>
+      </div>
+    </section>
+
+    <section id="two-factor" class="section support-section light-section">
+      <div class="section-heading">
+        <p class="eyebrow">Two-factor authentication</p>
+        <h2>Use the code from your configured FortiGate account.</h2>
+      </div>
+      <p>If FortiToken / OTP-based two-factor authentication is enabled on the configured FortiGate account, NOC for FGT will request the authentication code during sign-in.</p>
+      <p>NOC for FGT does not generate or replace FortiToken codes.</p>
+    </section>
+
+    <section id="demo" class="section support-section">
+      <div class="section-heading">
+        <p class="eyebrow">Demo Mode</p>
+        <h2>Explore the app without real device access.</h2>
+      </div>
+      <p>NOC for FGT includes a built-in Demo Mode that lets you explore the main monitoring experience without connecting to a physical FortiGate.</p>
+      <ul class="check-list">
+        <li>No physical FortiGate required</li>
+        <li>No FortiGate credentials required</li>
+        <li>No external NOC for FGT account required</li>
+        <li>No VPN required for Demo Mode</li>
+      </ul>
+    </section>
+
+    <section id="monitoring" class="section support-section light-section">
+      <div class="section-heading">
+        <p class="eyebrow">Monitoring</p>
+        <h2>System and network visibility.</h2>
+      </div>
+      <p>NOC for FGT can display system and network monitoring information such as CPU, memory, active sessions, interfaces, and traffic.</p>
+    </section>
+
+    <section id="history" class="section support-section">
+      <div class="section-heading">
+        <p class="eyebrow">Historical trends</p>
+        <h2>History depends on the environment and local samples.</h2>
+      </div>
+      <p>Historical views are available for supported operational metrics. The amount of history available can depend on the FortiGate environment and locally collected samples.</p>
+    </section>
+
+    <section id="backup" class="section support-section light-section">
+      <div class="section-heading">
+        <p class="eyebrow">Backup & restore</p>
+        <h2>Move supported configuration without exporting secrets.</h2>
+      </div>
+      <p>NOC for FGT can export and import supported device configuration information.</p>
+      <p>Backup files do not include passwords, OTP codes, session cookies, CSRF tokens, or other authentication secrets.</p>
+    </section>
+
+    <section id="troubleshooting" class="section support-section">
+      <div class="section-heading">
+        <p class="eyebrow">Common troubleshooting</p>
+        <h2>Practical checks for common symptoms.</h2>
+      </div>
+      <div class="support-columns">
+        <article>
+          <h3>Cannot connect to the FortiGate</h3>
+          <ul>
+            <li>Configured IP or hostname</li>
+            <li>HTTPS management access</li>
+            <li>Management port</li>
+            <li>Current network reachability</li>
+            <li>Username and password</li>
+            <li>Administrator permissions</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Login works in a browser but not in the app</h3>
+          <p>Confirm that the app is using the same hostname/IP and HTTPS port as the browser. Also check whether the environment uses a self-signed/private certificate, two-factor authentication, or network restrictions.</p>
+        </article>
+        <article>
+          <h3>Some metrics are missing</h3>
+          <p>Available metrics can vary by FortiGate model, FortiOS version, VDOM configuration, administrator permissions, and enabled services.</p>
+        </article>
+        <article>
+          <h3>WAN history is unavailable</h3>
+          <p>Device-side WAN history can depend on the FortiGate configuration and available monitoring data. NOC for FGT may fall back to locally collected traffic samples when device history is unavailable.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq-section light-section">
+      <div class="section-heading">
+        <p class="eyebrow">FAQ</p>
+        <h2>Answers for setup and review.</h2>
+      </div>
+      <div class="faq-list support-faq">
+        <details>
+          <summary>Why does iOS ask for Local Network access?</summary>
+          <p>NOC for FGT may need Local Network access when connecting directly to a FortiGate on your LAN. This permission allows the app to communicate with devices on the local network. You can review the permission later in iOS Settings.</p>
+        </details>
+        <details>
+          <summary>Why do I only see recent or live data?</summary>
+          <p>Historical availability depends on the FortiGate model, FortiOS version, administrator permissions, enabled services, and locally collected samples. When device-side historical data is unavailable, NOC for FGT can continue building local history while the app is used.</p>
+        </details>
+        <details>
+          <summary>Can I monitor multiple FortiGate devices?</summary>
+          <p>Yes. NOC for FGT supports managing multiple configured FortiGate devices from the app.</p>
+        </details>
+        <details>
+          <summary>Why do I need to enter my password again after importing a backup?</summary>
+          <p>Authentication secrets are intentionally excluded from backup exports. After importing a device configuration, enter the credentials again on your device.</p>
+        </details>
+        <details>
+          <summary>Where is my FortiGate password stored?</summary>
+          <p>FortiGate passwords are stored locally using the iOS Keychain.</p>
+        </details>
+        <details>
+          <summary>Does NOC for FGT require a cloud account?</summary>
+          <p>No separate NOC for FGT cloud account is required for direct device monitoring.</p>
+        </details>
+        <details>
+          <summary>Do I need a VPN?</summary>
+          <p>It depends on how your FortiGate management interface is reachable. NOC for FGT connects to the address you configure. For remote access, use an appropriate secure network path for your environment.</p>
+        </details>
+        <details>
+          <summary>Which FortiOS versions have been tested?</summary>
+          <p>The app has been tested with FortiOS 6.2 and 7.2 environments. Available information can vary by model, firmware version, administrator permissions, and enabled features.</p>
+        </details>
+        <details>
+          <summary>What is Diagnostics?</summary>
+          <p>Diagnostics provides technical information that can help explain connection, API endpoint, compatibility, and monitoring behavior.</p>
+        </details>
+        <details>
+          <summary>Why is my 2FA code not requested?</summary>
+          <p>Confirm that two-factor authentication is enabled for the FortiGate administrator account you configured.</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="contact" class="section support-contact">
+      <div>
+        <p class="eyebrow">Contact support</p>
+        <h2>Need more help? Contact NOC for FGT support.</h2>
+        <p>Send a short description of the issue and include the app version, iOS / iPadOS version, FortiGate model, FortiOS version, and a screenshot if appropriate.</p>
+        <p>Do not send passwords, OTP codes, session cookies, CSRF tokens, API tokens, or other authentication secrets.</p>
+        <a class="button primary" href="mailto:support@opshome.run">support@opshome.run</a>
+      </div>
+      <div class="support-links-panel">
+        <h3>Related pages</h3>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="index.html">NOC for FGT Home</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <img src="assets/images/logo.png" alt="" class="footer-logo">
+      <div>
+        <strong>NOC for FGT</strong>
+        <p>FortiGate monitoring support for iPhone and iPad.</p>
+      </div>
+    </div>
+    <div class="footer-links" aria-label="Footer links">
+      <a href="index.html">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="https://app.opshome.run/" target="_blank" rel="noopener">OpsHome</a>
+    </div>
+    <p class="footer-note">NOC for FGT is an independent application and is not affiliated with or endorsed by Fortinet, Inc. Fortinet and related product names are trademarks of their respective owners.</p>
+  </footer>
+</body>
+</html>

@@ -20,7 +20,7 @@ A local-first iPhone and iPad companion app for FortiGate monitoring, diagnostic
 
 <br>
 
-[English](#english) · [简体中文](#简体中文) · [Privacy](https://fgt.opshome.run/privacy.html) · [Terms](https://fgt.opshome.run/terms.html)
+[English](#english) · [简体中文](#简体中文) · [Support](https://fgt.opshome.run/support.html) · [Privacy](https://fgt.opshome.run/privacy.html) · [Terms](https://fgt.opshome.run/terms.html)
 
 <br>
 
@@ -167,6 +167,7 @@ No placeholder App Store URL is used.
 For support, privacy questions, or troubleshooting:
 
 - Visit the [NOC for FGT website](https://fgt.opshome.run/)
+- Open the [NOC for FGT support page](https://fgt.opshome.run/support.html)
 - Include the app version, iOS version, FortiGate model, FortiOS version, and a short description of the issue
 - Do not send FortiGate passwords, OTP codes, private keys, session cookies, or sensitive configuration exports
 
@@ -309,6 +310,7 @@ Coming to the App Store
 如需产品支持、隐私咨询或问题排查：
 
 - 访问 [NOC for FGT 网站](https://fgt.opshome.run/)
+- 打开 [NOC for FGT 支持页面](https://fgt.opshome.run/support.html)
 - 提供应用版本、iOS 版本、FortiGate 型号、FortiOS 版本和简短的问题描述
 - 请勿发送 FortiGate 密码、OTP、私钥、session cookie 或敏感配置导出
 
@@ -330,7 +332,7 @@ NOC for FGT is an independent application and is not affiliated with, endorsed b
 **Local-first. Practical. Focused.**  
 **本地优先、实用、专注。**
 
-[Website](https://fgt.opshome.run/) · [Privacy](https://fgt.opshome.run/privacy.html) · [Terms](https://fgt.opshome.run/terms.html) · [OpsHome NOC](https://app.opshome.run)
+[Website](https://fgt.opshome.run/) · [Support](https://fgt.opshome.run/support.html) · [Privacy](https://fgt.opshome.run/privacy.html) · [Terms](https://fgt.opshome.run/terms.html) · [OpsHome NOC](https://app.opshome.run)
 
 <br>
 
