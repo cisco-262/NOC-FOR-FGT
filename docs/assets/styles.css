@@ -12,6 +12,8 @@
   --white: #f5f9ff;
   --dark-text: #071932;
   --dark-muted: #49647f;
+  --card-text-primary: #102a43;
+  --card-text-secondary: #475569;
   --shadow: 0 24px 80px rgba(0, 18, 56, 0.42);
 }
 
@@ -572,6 +574,18 @@ figcaption {
 
 .compat-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.compatibility-section .compat-grid article {
+  color: var(--card-text-primary);
+}
+
+.compatibility-section .compat-grid h3 {
+  color: var(--card-text-primary);
+}
+
+.compatibility-section .compat-grid p {
+  color: var(--card-text-secondary);
 }
 
 .faq-list {
