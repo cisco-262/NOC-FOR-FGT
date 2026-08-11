@@ -308,51 +308,7 @@ Coming to the App Store
 
 ---
 
-## Website Repository
 
-This repository contains the static marketing, privacy, and terms website for NOC for FGT.
-
-本仓库包含 NOC for FGT 的静态产品展示、隐私政策和用户协议网站。
-
-### Published Pages
-
-| Path | Purpose |
-| --- | --- |
-| `/` | Product homepage |
-| `/privacy.html` | Privacy policy |
-| `/terms.html` | User agreement |
-| `/sitemap.xml` | Search engine sitemap |
-| `/robots.txt` | Search engine crawler rules |
-
-### Repository Structure
-
-```text
-product-website/
-├── README.md
-├── index.html
-├── privacy.html
-├── terms.html
-├── robots.txt
-├── sitemap.xml
-├── favicon.ico
-└── assets/
-    ├── styles.css
-    └── images/
-        ├── logo.png
-        ├── homepage.png
-        ├── overview.png
-        └── system.png
-```
-
-### GitHub Pages
-
-The website is intended to be published through GitHub Pages:
-
-```text
-https://cisco-262.github.io/NOC-FOR-FGT/
-```
-
-No build step is required. The site is plain HTML and CSS.
 
 ---
 
