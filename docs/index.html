@@ -23,18 +23,45 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "NOC for FGT",
-    "applicationCategory": "UtilitiesApplication",
-    "operatingSystem": "iOS, iPadOS",
-    "description": "NOC for FGT is a local-first FortiGate monitoring companion for iPhone and iPad.",
-    "url": "https://fgt.opshome.run/"
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://fgt.opshome.run/#website",
+        "url": "https://fgt.opshome.run/",
+        "name": "NOC for FGT",
+        "description": "Official product website for NOC for FGT, a local-first FortiGate monitoring companion for iPhone and iPad.",
+        "publisher": {
+          "@id": "https://opshome.run/#organization"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://opshome.run/#organization",
+        "name": "OpsHome",
+        "url": "https://opshome.run/"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://fgt.opshome.run/#softwareapplication",
+        "name": "NOC for FGT",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "iOS, iPadOS",
+        "description": "NOC for FGT is a local-first FortiGate monitoring companion for iPhone and iPad.",
+        "url": "https://fgt.opshome.run/",
+        "publisher": {
+          "@id": "https://opshome.run/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://fgt.opshome.run/#website"
+        }
+      }
+    ]
   }
   </script>
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="index.html" aria-label="NOC for FGT home">
+    <a class="brand" href="/" aria-label="NOC for FGT home">
       <img src="assets/images/logo.png" alt="" class="brand-logo">
       <span>NOC for FGT</span>
     </a>
@@ -55,7 +82,7 @@
         <div class="hero-content">
           <img src="assets/images/logo.png" alt="" class="hero-logo">
           <p class="eyebrow">FortiGate visibility for iPhone and iPad</p>
-          <h1>Your FortiGate NOC, in your pocket.</h1>
+          <h1>NOC for FGT — Your FortiGate NOC, in your pocket.</h1>
           <p class="hero-copy">
             Monitor system health, interfaces, WAN traffic, sessions, topology, and key operational status directly from your iPhone or iPad.
           </p>
@@ -399,7 +426,7 @@
       </div>
     </div>
     <div class="footer-links" aria-label="Footer links">
-      <a href="index.html">NOC for FGT</a>
+      <a href="/">NOC for FGT</a>
       <a href="privacy.html">Privacy</a>
       <a href="terms.html">Terms</a>
       <a href="support.html">Support</a>
