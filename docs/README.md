@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="assets/images/logo.png" alt="NOC for FGT Logo" width="120">
 
@@ -87,91 +87,15 @@ Depending on FortiGate model, FortiOS version, configuration, permissions, and a
 
 ### Compatibility
 
-The verified baseline is:
+NOC for FGT has been validated with real FortiGate environments:
 
-- FortiGate 30E / FortiOS 6.2.17
-- FortiGate 80F / FortiOS 7.2.8
+- FortiGate 30E — FortiOS 6.2.17
+- FortiGate 60E — FortiOS 6.4.2
+- FortiGate 80F — FortiOS 7.2.8
+- FortiGate VM — FortiOS 7.6.6 (API validation)
 
-Other FortiOS versions and FortiGate models may work through capability probing and fallback parsing, but unverified versions may provide partial functionality only.
+The app supports multiple FortiOS generations through capability detection and adaptive API handling.
 
-### Privacy-First Design
-
-NOC for FGT is designed around direct device access and local storage.
-
-The app may store locally:
-
-- FortiGate device records
-- Device names, hosts, and management ports
-- User preferences
-- Trusted certificate fingerprint information where applicable
-- FortiGate passwords in the iOS Keychain
-
-NOC for FGT does **not** require:
-
-- A separate NOC for FGT cloud account for direct monitoring
-- A cloud relay for direct device access
-- Uploading FortiGate credentials to an OpsHome service for direct monitoring
-
-Backup exports are designed not to include passwords, OTP codes, session cookies, CSRF tokens, or other authentication secrets.
-
-Optional App Lock can use Face ID, Touch ID, or device passcode through Apple's local device authentication APIs to help protect access to saved devices and monitoring data.
-
-Read the complete [Privacy Policy](https://fgt.opshome.run/privacy.html).
-
-### Monitoring Scope and Limitations
-
-NOC for FGT is a mobile monitoring companion. It does not replace:
-
-- FortiGate administration tools
-- FortiManager
-- FortiAnalyzer
-- Firewall policy review workflows
-- Production monitoring platforms
-- Secure network access design
-
-Historical availability depends on the FortiGate environment, FortiOS version, configuration, and locally collected samples.
-
-Users are responsible for connecting only to FortiGate devices and networks they own or are authorized to manage.
-
-### Need Broader Infrastructure Monitoring?
-
-For broader homelab and infrastructure visibility, use **OpsHome NOC**.
-
-OpsHome NOC provides visibility for:
-
-- Website and service uptime
-- Public and private HTTP / HTTPS / TCP services
-- Docker Probe
-- Synology NAS
-- Proxmox VE
-- Linux hosts
-- Docker hosts and containers
-- Alerts, events, history, and NOC-style health views
-
-[Learn about OpsHome NOC](https://app.opshome.run) · [Visit OpsHome Docs](https://docs.opshome.run)
-
-### App Availability
-
-NOC for FGT does not currently have a confirmed public App Store URL in this repository.
-
-The website uses:
-
-```text
-Coming to the App Store
-```
-
-No placeholder App Store URL is used.
-
-### Support
-
-For support, privacy questions, or troubleshooting:
-
-- Visit the [NOC for FGT website](https://fgt.opshome.run/)
-- Open the [NOC for FGT support page](https://fgt.opshome.run/support.html)
-- Include the app version, iOS version, FortiGate model, FortiOS version, and a short description of the issue
-- Do not send FortiGate passwords, OTP codes, private keys, session cookies, or sensitive configuration exports
-
----
 
 ## 简体中文
 
@@ -295,15 +219,9 @@ OpsHome NOC 支持：
 
 ### App Store
 
-当前仓库中没有确认的 NOC for FGT 独立 App Store URL。
+NOC for FGT 已在 App Store 上架：
 
-网站使用：
-
-```text
-Coming to the App Store
-```
-
-没有使用占位或虚假的 App Store 链接。
+https://apps.apple.com/us/app/noc-for-fgt/id6796713266
 
 ### 支持
 
