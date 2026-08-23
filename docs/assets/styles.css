@@ -407,11 +407,69 @@ figcaption {
   margin-bottom: 32px;
 }
 
-.feature-columns,
-.steps,
-.compat-grid {
+
+.compat-subnote {
+  margin-top: 12px !important;
+  color: var(--dark-muted) !important;
+  font-size: 14px;
+}
+
+.compat-points {
+  margin: 12px 0 0;
+  padding-left: 20px;
+  color: var(--dark-muted);
+}
+
+.compat-points li + li {
+  margin-top: 8px;
+}
+
+.fortios-matrix {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.fortios-matrix div {
+  padding: 12px 8px;
+  border-radius: 8px;
+  background: #eef6ff;
+  text-align: center;
+}
+
+.fortios-matrix strong {
+  display: block;
+  color: var(--ink);
+  font-size: 15px;
+}
+
+.fortios-matrix span {
+  display: block;
+  margin-top: 8px;
+  color: #334e68;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.fortios-matrix small {
+  display: block;
+  margin-top: 5px;
+  color: #486581;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.feature-columns,
+.steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.compat-grid {
+  display: grid;
+  grid-template-columns: 0.8fr 1.1fr 2fr;
   gap: 16px;
 }
 
