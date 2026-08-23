@@ -46,7 +46,7 @@ The app connects directly to FortiGate devices configured by the user and presen
 | **Interface monitoring** | View interface status, roles, IP information, WAN traffic, and parent / child relationships where available. |
 | **Historical trends** | Review CPU, memory, sessions, and traffic trends based on available local samples and device support. |
 | **Network topology** | Understand interface and VLAN relationships through topology-oriented views. |
-| **Multiple FortiGate devices** | Keep multiple configured FortiGate devices organized in one mobile workspace. |
+| **Multiple FortiGate devices** | Manage multiple configured FortiGate devices in one mobile workspace. Start with 5 devices and expand up to 65 managed devices through capacity upgrades. |
 | **2FA support** | Use FortiToken / OTP-based authentication when enabled on the FortiGate account. |
 | **Diagnostics** | Inspect supported API, endpoint, and connection behavior while troubleshooting. |
 | **Backup and restore** | Export and restore app configuration data while excluding authentication secrets. |
@@ -87,12 +87,26 @@ Depending on FortiGate model, FortiOS version, configuration, permissions, and a
 
 ### Compatibility
 
-The verified baseline is:
+NOC for FGT is validated across multiple FortiGate platforms and FortiOS generations.
 
-- FortiGate 30E / FortiOS 6.2.17
-- FortiGate 80F / FortiOS 7.2.8
+Validated platforms:
 
-Other FortiOS versions and FortiGate models may work through capability probing and fallback parsing, but unverified versions may provide partial functionality only.
+| Device | Tested FortiOS |
+| --- | --- |
+| FortiGate 30E | 6.2.x |
+| FortiGate 60E | 6.2.x / 6.4.x |
+| FortiGate 80F | 7.2.x |
+| FortiGate VM | 7.x+ (API validation) |
+
+Validated versions include:
+
+- FortiOS 6.2.16
+- FortiOS 6.2.17
+- FortiOS 6.4.6
+- FortiOS 7.2.8
+- FortiOS 7.6.6
+
+Other FortiOS versions and FortiGate models may work through capability detection and adaptive API handling, but unverified versions may provide partial functionality only.
 
 ### Privacy-First Design
 
@@ -224,12 +238,26 @@ For support, privacy questions, or troubleshooting:
 
 ### 兼容性
 
-当前已验证基线为：
+NOC for FGT 已针对多个 FortiGate 平台和 FortiOS 世代进行验证。
 
-- FortiGate 30E / FortiOS 6.2.17
-- FortiGate 80F / FortiOS 7.2.8
+已验证平台：
 
-其他 FortiOS 版本和 FortiGate 型号可能通过能力探测和 fallback 解析继续工作，但未验证版本可能只提供部分功能。
+| 设备 | 测试 FortiOS |
+| --- | --- |
+| FortiGate 30E | 6.2.x |
+| FortiGate 60E | 6.2.x / 6.4.x |
+| FortiGate 80F | 7.2.x |
+| FortiGate VM | 7.x+（API validation） |
+
+已验证版本包括：
+
+- FortiOS 6.2.16
+- FortiOS 6.2.17
+- FortiOS 6.4.6
+- FortiOS 7.2.8
+- FortiOS 7.6.6
+
+其他 FortiOS 版本和 FortiGate 型号可能通过能力探测和自适应 API 处理继续工作，但未验证版本可能只提供部分功能。
 
 ### 隐私优先设计
 
