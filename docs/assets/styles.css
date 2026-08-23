@@ -434,21 +434,22 @@ figcaption {
 .fortios-matrix div {
   padding: 12px 8px;
   border-radius: 8px;
-  background: #eef6ff;
+  background: #ffffff;
+  border: 1px solid #b9cce3;
   text-align: center;
 }
 
 .fortios-matrix strong {
   display: block;
-  color: var(--ink);
+  color: #06162e !important;
   font-size: 15px;
 }
 
 .fortios-matrix span {
   display: block;
   margin-top: 8px;
-  color: #334e68;
-  font-weight: 700;
+  color: #102a43 !important;
+  font-weight: 850;
   font-size: 14px;
 }
 
@@ -1064,8 +1065,13 @@ figcaption {
   color: var(--muted);
 }
 .compat-note {
+  color: #102a43 !important;
   font-size: 14px;
   line-height: 1.6;
+}
+
+.compat-note strong {
+  color: #06162e !important;
 }
 .screenshots-section .section-heading {
   margin-bottom: 34px;
