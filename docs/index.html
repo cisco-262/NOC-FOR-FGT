@@ -19,8 +19,8 @@
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
   <link rel="preload" as="image"
-        href="assets/images/homepage-720.webp"
-        imagesrcset="assets/images/homepage-480.webp 480w, assets/images/homepage-720.webp 720w, assets/images/homepage-960.webp 960w, assets/images/homepage-1200.webp 1200w"
+        href="assets/images/fgt-live-monitor.png"
+        imagesrcset="assets/images/fgt-live-monitor.png 480w, assets/images/fgt-live-monitor.png 720w, assets/images/fgt-live-monitor.png 960w, assets/images/fgt-live-monitor.png 1200w"
         imagesizes="(max-width: 680px) 84vw, (max-width: 1020px) 440px, 520px"
         type="image/webp"
         fetchpriority="high">
@@ -75,6 +75,7 @@
       <a href="#features">Features</a>
       <a href="#demo">Demo</a>
       <a href="#security">Security</a>
+      <a href="https://docs.opshome.run/noc-for-fgt/" target="_blank" rel="noopener">Docs</a>
       <a href="support.html">Support</a>
       <a href="#faq">FAQ</a>
       <a href="#opshome">OpsHome</a>
@@ -110,8 +111,8 @@
           <p class="demo-note"><strong>Built-in Demo Mode</strong> - no FortiGate required to explore the app.</p>
         </div>
         <img class="hero-shot"
-             src="assets/images/homepage-720.webp"
-             srcset="assets/images/homepage-480.webp 480w, assets/images/homepage-720.webp 720w, assets/images/homepage-960.webp 960w, assets/images/homepage-1200.webp 1200w"
+             src="assets/images/fgt-live-monitor.png"
+             srcset="assets/images/fgt-live-monitor.png 480w, assets/images/fgt-live-monitor.png 720w, assets/images/fgt-live-monitor.png 960w, assets/images/fgt-live-monitor.png 1200w"
              sizes="(max-width: 680px) 84vw, (max-width: 1020px) 440px, 520px"
              width="1419" height="2796"
              alt="NOC for FGT home screen showing FortiGate devices and monitoring entry points"
@@ -154,8 +155,8 @@
         </div>
       </div>
       <figure class="product-shot">
-        <img src="assets/images/overview-720.webp"
-             srcset="assets/images/overview-480.webp 480w, assets/images/overview-720.webp 720w, assets/images/overview-960.webp 960w, assets/images/overview-1200.webp 1200w"
+        <img src="assets/images/fgt-interface-topology.png"
+             srcset="assets/images/fgt-interface-topology.png 480w, assets/images/fgt-interface-topology.png 720w, assets/images/fgt-interface-topology.png 960w, assets/images/fgt-interface-topology.png 1200w"
              sizes="(max-width: 680px) calc(100vw - 36px), (max-width: 1020px) calc(100vw - 72px), 50vw"
              width="1419" height="2796"
              alt="NOC for FGT overview dashboard showing device health and operational status"
@@ -228,8 +229,8 @@
 
     <section id="history" class="section split-section reverse">
       <figure class="product-shot">
-        <img src="assets/images/system-720.webp"
-             srcset="assets/images/system-480.webp 480w, assets/images/system-720.webp 720w, assets/images/system-960.webp 960w, assets/images/system-1200.webp 1200w"
+        <img src="assets/images/fgt-system-trends.png"
+             srcset="assets/images/fgt-system-trends.png 480w, assets/images/fgt-system-trends.png 720w, assets/images/fgt-system-trends.png 960w, assets/images/fgt-system-trends.png 1200w"
              sizes="(max-width: 680px) calc(100vw - 36px), (max-width: 1020px) calc(100vw - 72px), 50vw"
              width="1419" height="2796"
              alt="NOC for FGT system status screen showing CPU memory sessions and performance information"
@@ -310,6 +311,20 @@
       </div>
     </section>
 
+    <section id="screenshots" class="section screenshots-section">
+      <div class="section-heading">
+        <p class="eyebrow">Screenshots</p>
+        <h2>Operational visibility from your iPhone.</h2>
+        <p>Monitor FortiGate health, traffic, interface relationships, and detailed port status with a mobile-first NOC workflow.</p>
+      </div>
+      <div class="screenshot-grid">
+        <figure><img src="assets/images/fgt-live-monitor.png" alt="NOC for FGT live monitor"></figure>
+        <figure><img src="assets/images/fgt-system-trends.png" alt="NOC for FGT system trends"></figure>
+        <figure><img src="assets/images/fgt-interface-topology.png" alt="NOC for FGT interface topology"></figure>
+        <figure><img src="assets/images/fgt-interface-details.png" alt="NOC for FGT interface details"></figure>
+      </div>
+    </section>
+
     <section id="security" class="section security-section">
       <div>
         <p class="eyebrow">Security & privacy</p>
@@ -364,16 +379,15 @@
           <h3>Access</h3>
           <p>HTTPS management, username / password, and FortiToken / OTP 2FA.</p>
         </article>
-        <article>
-          <h3>FortiOS</h3>
-          <p>Validated on:
-
-- FortiGate 30E — FortiOS 6.2.17
-- FortiGate 60E — FortiOS 6.4.2
-- FortiGate 80F — FortiOS 7.2.8
-- FortiGate VM — FortiOS 7.6.6 (API validation)
-
-The app supports multiple FortiOS generations through capability detection and adaptive API handling.</p>
+        <article class="fortios-card">
+          <h3>FortiOS Compatibility</h3>
+          <div class="compat-list">
+            <div><strong>FortiGate 30E</strong><span>FortiOS 6.2.x</span></div>
+            <div><strong>FortiGate 60E</strong><span>FortiOS 6.2.x / 6.4.x</span></div>
+            <div><strong>FortiGate 80F</strong><span>FortiOS 7.2.x</span></div>
+            <div><strong>FortiGate VM</strong><span>FortiOS 7.x+ (API validation)</span></div>
+          </div>
+          <p class="compat-note">Validated with FortiOS 6.2.16, 6.2.17, 6.4.6, 7.2.8 and 7.6.6. Capability detection and adaptive API handling help support multiple FortiOS generations.</p>
         </article>
       </div>
     </section>
@@ -461,6 +475,7 @@ The app supports multiple FortiOS generations through capability detection and a
       <a href="/">NOC for FGT</a>
       <a href="privacy.html">Privacy</a>
       <a href="terms.html">Terms</a>
+      <a href="https://docs.opshome.run/noc-for-fgt/" target="_blank" rel="noopener">Docs</a>
       <a href="support.html">Support</a>
       <a href="https://opshome.run/" target="_blank" rel="noopener">OpsHome</a>
     </div>
