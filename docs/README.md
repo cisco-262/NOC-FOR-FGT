@@ -112,6 +112,8 @@ Other FortiOS versions and FortiGate models may work through capability detectio
 
 NOC for FGT is designed around direct device access and local storage.
 
+Device credentials and monitoring data are processed locally on the user's device and are not uploaded to OpsHome servers for direct device monitoring.
+
 The app may store locally:
 
 - FortiGate device records
@@ -146,6 +148,8 @@ NOC for FGT is a mobile monitoring companion. It does not replace:
 Historical availability depends on the FortiGate environment, FortiOS version, configuration, and locally collected samples.
 
 Users are responsible for connecting only to FortiGate devices and networks they own or are authorized to manage.
+
+Users must have proper authorization to access and manage FortiGate devices. OpsHome is not responsible for unauthorized device access or actions performed by users.
 
 ### Need Broader Infrastructure Monitoring?
 
@@ -263,6 +267,8 @@ NOC for FGT 已针对多个 FortiGate 平台和 FortiOS 世代进行验证。
 
 NOC for FGT 围绕直接设备访问和本地存储设计。
 
+设备凭据和监控数据在用户设备本地处理，不会为了直接设备监控上传到 OpsHome 服务器。
+
 应用可能在本地保存：
 
 - FortiGate 设备记录
@@ -297,6 +303,8 @@ NOC for FGT 是移动端监控辅助工具，不能替代：
 历史数据可用性取决于 FortiGate 环境、FortiOS 版本、配置和本地采样情况。
 
 用户应只连接自己拥有或已获授权管理的 FortiGate 设备和网络。
+
+用户必须具备访问和管理 FortiGate 设备的适当授权。OpsHome 不负责用户未经授权访问设备或执行操作所产生的责任。
 
 ### 需要更完整的基础设施监控？
 
@@ -339,7 +347,7 @@ https://apps.apple.com/us/app/noc-for-fgt/id6796713266
 
 Fortinet, FortiGate, FortiOS, FortiGuard, and FortiToken are trademarks of their respective owners.
 
-NOC for FGT is an independent application and is not affiliated with, endorsed by, or sponsored by Fortinet, Inc.
+NOC for FGT is an independent third-party application developed by OpsHome and is not affiliated with, endorsed by, or sponsored by Fortinet, Inc.
 
 ---
 
