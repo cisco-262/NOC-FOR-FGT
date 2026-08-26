@@ -25,7 +25,7 @@
         imagesizes="(max-width: 680px) 84vw, (max-width: 1020px) 440px, 520px"
         type="image/webp"
         fetchpriority="high">
-  <link rel="stylesheet" href="assets/styles.css?v=20260824-visual-round3">
+  <link rel="stylesheet" href="assets/styles.css?v=20260826-topology-fix2">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -274,13 +274,14 @@
           <span>Logical network view</span>
         </div>
       </div>
-      <figure class="topology-proof">
-        <img src="assets/images/fgt-interface-topology.png"
+      <div class="topology-device">
+        <img class="topology-device-image"
+             src="assets/images/fgt-interface-topology.png"
              alt="NOC for FGT topology view showing FortiGate physical ports, VLAN interfaces, and parent-child interface relationships"
              loading="lazy"
              decoding="async">
-        <figcaption>Topology view for physical, logical, and VLAN interface relationships.</figcaption>
-      </figure>
+        <p class="topology-device-caption">Topology view for physical, logical, and VLAN interface relationships.</p>
+      </div>
     </section>
 
     <section id="demo" class="section demo-section">
