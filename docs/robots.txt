@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://fgt.opshome.run/sitemap.xml
