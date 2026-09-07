@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="assets/images/logo.png" alt="FortiGate NOC Monitor Logo" width="120">
 
@@ -24,7 +24,7 @@ A local-first iPhone and iPad companion app for FortiGate monitoring, diagnostic
 
 <br>
 
-<img src="assets/images/hero-live-monitor.png" alt="FortiGate NOC Monitor iPhone app showing FortiGate monitoring entry points" width="300">
+<img src="assets/images/homepage.png" alt="FortiGate NOC Monitor iPhone app showing FortiGate monitoring entry points" width="300">
 
 </div>
 
