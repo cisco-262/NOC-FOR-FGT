@@ -1,10 +1,10 @@
-﻿<div align="center">
+<div align="center">
 
-<img src="assets/images/logo.png" alt="NOC for FGT Logo" width="120">
+<img src="assets/images/logo.png" alt="FortiGate NOC Monitor Logo" width="120">
 
-# NOC for FGT
+# FortiGate NOC Monitor
 
-**Your FortiGate NOC, in your pocket.**  
+**FortiGate NOC Monitor<br>for iPhone and iPad**  
 **把 FortiGate 运维视图放进口袋里。**
 
 A local-first iPhone and iPad companion app for FortiGate monitoring, diagnostics, trends, interfaces, and operational visibility.
@@ -24,7 +24,7 @@ A local-first iPhone and iPad companion app for FortiGate monitoring, diagnostic
 
 <br>
 
-<img src="assets/images/homepage.png" alt="NOC for FGT iPhone app showing FortiGate monitoring entry points" width="300">
+<img src="assets/images/homepage.png" alt="FortiGate NOC Monitor iPhone app showing FortiGate monitoring entry points" width="300">
 
 </div>
 
@@ -34,9 +34,9 @@ A local-first iPhone and iPad companion app for FortiGate monitoring, diagnostic
 
 ### Overview
 
-**NOC for FGT** is a focused FortiGate monitoring companion for IT administrators, network operators, firewall administrators, and homelab users who want practical device visibility from iPhone or iPad.
+**FortiGate NOC Monitor** is a focused FortiGate monitoring companion for IT administrators, network operators, firewall administrators, and homelab users who want practical device visibility from iPhone or iPad.
 
-The app connects directly to FortiGate devices configured by the user and presents common operational information without requiring a separate NOC for FGT cloud account.
+The app connects directly to FortiGate devices configured by the user and presents common operational information without requiring a separate FortiGate NOC Monitor cloud account.
 
 ### Highlights
 
@@ -51,8 +51,8 @@ The app connects directly to FortiGate devices configured by the user and presen
 | **Diagnostics** | Inspect supported API, endpoint, and connection behavior while troubleshooting. |
 | **Backup and restore** | Export and restore app configuration data while excluding authentication secrets. |
 | **Built-in Demo Mode** | Explore the main monitoring experience without connecting to a physical FortiGate. |
-| **Optional App Lock** | Use Face ID, Touch ID, or device passcode to help protect access to saved devices and monitoring data. |
-| **Local-first design** | FortiGate passwords are stored using the iOS Keychain. Direct monitoring does not require a NOC for FGT cloud account. |
+| **Local-first Security Security** | Use Face ID, Touch ID, or device passcode to help protect access to saved devices and monitoring data. |
+| **Local-first Security design** | FortiGate passwords are stored using the iOS Keychain. Direct monitoring does not require a FortiGate NOC Monitor cloud account. |
 
 ### How It Works
 
@@ -70,7 +70,7 @@ The app connects directly to FortiGate devices configured by the user and presen
 
 ### FortiGate Information
 
-Depending on FortiGate model, FortiOS version, configuration, permissions, and available APIs, NOC for FGT can display:
+Depending on FortiGate model, FortiOS version, configuration, permissions, and available APIs, FortiGate NOC Monitor can display:
 
 - Device model
 - FortiOS version and build
@@ -87,7 +87,7 @@ Depending on FortiGate model, FortiOS version, configuration, permissions, and a
 
 ### Compatibility
 
-NOC for FGT is validated across multiple FortiGate platforms and FortiOS generations.
+FortiGate NOC Monitor is validated across multiple FortiGate platforms and FortiOS generations.
 
 Validated platforms:
 
@@ -110,7 +110,7 @@ Other FortiOS versions and FortiGate models may work through capability detectio
 
 ### Privacy-First Design
 
-NOC for FGT is designed around direct device access and local storage.
+FortiGate NOC Monitor is designed around direct device access and local storage.
 
 Device credentials and monitoring data are processed locally on the user's device and are not uploaded to OpsHome servers for direct device monitoring.
 
@@ -122,21 +122,21 @@ The app may store locally:
 - Trusted certificate fingerprint information where applicable
 - FortiGate passwords in the iOS Keychain
 
-NOC for FGT does **not** require:
+FortiGate NOC Monitor does **not** require:
 
-- A separate NOC for FGT cloud account for direct monitoring
+- A separate FortiGate NOC Monitor cloud account for direct monitoring
 - A cloud relay for direct device access
 - Uploading FortiGate credentials to an OpsHome service for direct monitoring
 
 Backup exports are designed not to include passwords, OTP codes, session cookies, CSRF tokens, or other authentication secrets.
 
-Optional App Lock can use Face ID, Touch ID, or device passcode through Apple's local device authentication APIs to help protect access to saved devices and monitoring data.
+Local-first Security Security can use Face ID, Touch ID, or device passcode through Apple's local device authentication APIs to help protect access to saved devices and monitoring data.
 
 Read the complete [Privacy Policy](https://fgt.opshome.run/privacy.html).
 
 ### Monitoring Scope and Limitations
 
-NOC for FGT is a mobile monitoring companion. It does not replace:
+FortiGate NOC Monitor is a mobile monitoring companion. It does not replace:
 
 - FortiGate administration tools
 - FortiManager
@@ -170,7 +170,7 @@ OpsHome NOC provides visibility for:
 
 ### App Availability
 
-NOC for FGT is available on the App Store:
+FortiGate NOC Monitor is available on the App Store:
 
 https://apps.apple.com/us/app/noc-for-fgt/id6796713266
 
@@ -178,8 +178,8 @@ https://apps.apple.com/us/app/noc-for-fgt/id6796713266
 
 For support, privacy questions, or troubleshooting:
 
-- Visit the [NOC for FGT website](https://fgt.opshome.run/)
-- Open the [NOC for FGT support page](https://fgt.opshome.run/support.html)
+- Visit the [FortiGate NOC Monitor website](https://fgt.opshome.run/)
+- Open the [FortiGate NOC Monitor support page](https://fgt.opshome.run/support.html)
 - Include the app version, iOS version, FortiGate model, FortiOS version, and a short description of the issue
 - Do not send FortiGate passwords, OTP codes, private keys, session cookies, or sensitive configuration exports
 
@@ -189,9 +189,9 @@ For support, privacy questions, or troubleshooting:
 
 ### 产品介绍
 
-**NOC for FGT** 是一款面向 FortiGate 环境的 iPhone / iPad 监控与运维辅助应用，适合 IT 管理员、网络管理员、防火墙管理员和 Homelab 用户。
+**FortiGate NOC Monitor** 是一款面向 FortiGate 环境的 iPhone / iPad 监控与运维辅助应用，适合 IT 管理员、网络管理员、防火墙管理员和 Homelab 用户。
 
-应用直接连接用户自己配置的 FortiGate 设备，在移动端展示日常运维中最常用的设备状态、接口、流量、诊断和趋势信息。直接设备监控不需要单独的 NOC for FGT 云账号。
+应用直接连接用户自己配置的 FortiGate 设备，在移动端展示日常运维中最常用的设备状态、接口、流量、诊断和趋势信息。直接设备监控不需要单独的 FortiGate NOC Monitor 云账号。
 
 ### 核心功能
 
@@ -207,7 +207,7 @@ For support, privacy questions, or troubleshooting:
 | **备份与恢复** | 支持导出和恢复应用配置数据，同时排除认证敏感信息。 |
 | **内置 Demo Mode** | 无需真实 FortiGate，也可以体验主要监控界面。 |
 | **可选 App Lock** | 可使用 Face ID、Touch ID 或设备密码保护已保存设备和监控数据的访问入口。 |
-| **本地优先设计** | FortiGate 密码使用 iOS Keychain 保存。直接监控不需要 NOC for FGT 云账号。 |
+| **本地优先设计** | FortiGate 密码使用 iOS Keychain 保存。直接监控不需要 FortiGate NOC Monitor 云账号。 |
 
 ### 工作方式
 
@@ -225,7 +225,7 @@ For support, privacy questions, or troubleshooting:
 
 ### 可查看的 FortiGate 信息
 
-根据 FortiGate 型号、FortiOS 版本、配置、权限和可用 API，NOC for FGT 可以展示：
+根据 FortiGate 型号、FortiOS 版本、配置、权限和可用 API，FortiGate NOC Monitor 可以展示：
 
 - 设备型号
 - FortiOS 版本和 build
@@ -242,7 +242,7 @@ For support, privacy questions, or troubleshooting:
 
 ### 兼容性
 
-NOC for FGT 已针对多个 FortiGate 平台和 FortiOS 世代进行验证。
+FortiGate NOC Monitor 已针对多个 FortiGate 平台和 FortiOS 世代进行验证。
 
 已验证平台：
 
@@ -265,7 +265,7 @@ NOC for FGT 已针对多个 FortiGate 平台和 FortiOS 世代进行验证。
 
 ### 隐私优先设计
 
-NOC for FGT 围绕直接设备访问和本地存储设计。
+FortiGate NOC Monitor 围绕直接设备访问和本地存储设计。
 
 设备凭据和监控数据在用户设备本地处理，不会为了直接设备监控上传到 OpsHome 服务器。
 
@@ -277,9 +277,9 @@ NOC for FGT 围绕直接设备访问和本地存储设计。
 - 可信证书指纹信息
 - 使用 iOS Keychain 保存的 FortiGate 密码
 
-NOC for FGT 直接监控不需要：
+FortiGate NOC Monitor 直接监控不需要：
 
-- 单独的 NOC for FGT 云账号
+- 单独的 FortiGate NOC Monitor 云账号
 - 云端中转
 - 将 FortiGate 凭据上传到 OpsHome 服务
 
@@ -291,7 +291,7 @@ NOC for FGT 直接监控不需要：
 
 ### 监控范围与限制
 
-NOC for FGT 是移动端监控辅助工具，不能替代：
+FortiGate NOC Monitor 是移动端监控辅助工具，不能替代：
 
 - FortiGate 官方管理工具
 - FortiManager
@@ -325,7 +325,7 @@ OpsHome NOC 支持：
 
 ### App Store
 
-NOC for FGT 已在 App Store 上架：
+FortiGate NOC Monitor 已在 App Store 上架：
 
 https://apps.apple.com/us/app/noc-for-fgt/id6796713266
 
@@ -333,8 +333,8 @@ https://apps.apple.com/us/app/noc-for-fgt/id6796713266
 
 如需产品支持、隐私咨询或问题排查：
 
-- 访问 [NOC for FGT 网站](https://fgt.opshome.run/)
-- 打开 [NOC for FGT 支持页面](https://fgt.opshome.run/support.html)
+- 访问 [FortiGate NOC Monitor 网站](https://fgt.opshome.run/)
+- 打开 [FortiGate NOC Monitor 支持页面](https://fgt.opshome.run/support.html)
 - 提供应用版本、iOS 版本、FortiGate 型号、FortiOS 版本和简短的问题描述
 - 请勿发送 FortiGate 密码、OTP、私钥、session cookie 或敏感配置导出
 
@@ -347,13 +347,13 @@ https://apps.apple.com/us/app/noc-for-fgt/id6796713266
 
 Fortinet, FortiGate, FortiOS, FortiGuard, and FortiToken are trademarks of their respective owners.
 
-NOC for FGT is an independent third-party application developed by OpsHome and is not affiliated with, endorsed by, or sponsored by Fortinet, Inc.
+FortiGate NOC Monitor is an independent third-party application developed by OpsHome and is not affiliated with, endorsed by, or sponsored by Fortinet, Inc.
 
 ---
 
 <div align="center">
 
-**Local-first. Practical. Focused.**  
+**Local-first Security. Practical. Focused.**  
 **本地优先、实用、专注。**
 
 [Website](https://fgt.opshome.run/) · [Support](https://fgt.opshome.run/support.html) · [Privacy](https://fgt.opshome.run/privacy.html) · [Terms](https://fgt.opshome.run/terms.html) · [OpsHome NOC](https://app.opshome.run)
