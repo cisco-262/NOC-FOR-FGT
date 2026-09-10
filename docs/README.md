@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="assets/images/logo.png" alt="FortiGate NOC Monitor Logo" width="120">
 
@@ -9,14 +9,14 @@
 
 A local-first iPhone and iPad companion app for FortiGate monitoring, diagnostics, trends, interfaces, and operational visibility.
 
-一款面向 iPhone 和 iPad 的 FortiGate 本地直连监控与运维辅助应用，专注设备状态、诊断、趋势、接口和日常运维可见性。
+一款面向 iPhone 与 iPad 的 FortiGate 本地直连监控与运维辅助应用，专注设备状态、诊断、趋势、接口和日常运维可见性。
 
 <br>
 
-[![Website](https://img.shields.io/badge/Website-NOC--FOR--FGT-0D96F6)](https://fgt.opshome.run/)
+[![Website](https://img.shields.io/badge/Website-FortiGate--NOC--Monitor-0D96F6)](https://fgt.opshome.run/)
 [![Platform](https://img.shields.io/badge/Platform-iPhone%20%26%20iPad-lightgrey?logo=apple)](https://fgt.opshome.run/)
 [![Mode](https://img.shields.io/badge/Mode-Local--first-168B59)](https://fgt.opshome.run/)
-[![Status](https://img.shields.io/badge/App_Store-Coming_Soon-6B7280)](https://fgt.opshome.run/)
+[![Status](https://img.shields.io/badge/App_Store-Available-0D96F6?logo=apple)](https://apps.apple.com/us/app/noc-for-fgt/id6796713266)
 
 <br>
 
@@ -24,7 +24,7 @@ A local-first iPhone and iPad companion app for FortiGate monitoring, diagnostic
 
 <br>
 
-<img src="assets/images/homepage.png" alt="FortiGate NOC Monitor iPhone app showing FortiGate monitoring entry points" width="300">
+<img src="assets/images/hero-live-monitor.png" alt="FortiGate NOC Monitor Live Monitor screen on iPhone" width="300">
 
 </div>
 
@@ -51,7 +51,7 @@ The app connects directly to FortiGate devices configured by the user and presen
 | **Diagnostics** | Inspect supported API, endpoint, and connection behavior while troubleshooting. |
 | **Backup and restore** | Export and restore app configuration data while excluding authentication secrets. |
 | **Built-in Demo Mode** | Explore the main monitoring experience without connecting to a physical FortiGate. |
-| **Local-first Security Security** | Use Face ID, Touch ID, or device passcode to help protect access to saved devices and monitoring data. |
+| **Local-first Security** | Use Face ID, Touch ID, or device passcode to help protect access to saved devices and monitoring data. |
 | **Local-first Security design** | FortiGate passwords are stored using the iOS Keychain. Direct monitoring does not require a FortiGate NOC Monitor cloud account. |
 
 ### How It Works
@@ -130,7 +130,7 @@ FortiGate NOC Monitor does **not** require:
 
 Backup exports are designed not to include passwords, OTP codes, session cookies, CSRF tokens, or other authentication secrets.
 
-Local-first Security Security can use Face ID, Touch ID, or device passcode through Apple's local device authentication APIs to help protect access to saved devices and monitoring data.
+Local-first Security can use Face ID, Touch ID, or device passcode through Apple's local device authentication APIs to help protect access to saved devices and monitoring data.
 
 Read the complete [Privacy Policy](https://fgt.opshome.run/privacy.html).
 
@@ -189,7 +189,7 @@ For support, privacy questions, or troubleshooting:
 
 ### 产品介绍
 
-**FortiGate NOC Monitor** 是一款面向 FortiGate 环境的 iPhone / iPad 监控与运维辅助应用，适合 IT 管理员、网络管理员、防火墙管理员和 Homelab 用户。
+**FortiGate NOC Monitor** 是一款面向 FortiGate 环境的 iPhone 与 iPad 监控与运维辅助应用，适合 IT 管理员、网络管理员、防火墙管理员和 Homelab 用户。
 
 应用直接连接用户自己配置的 FortiGate 设备，在移动端展示日常运维中最常用的设备状态、接口、流量、诊断和趋势信息。直接设备监控不需要单独的 FortiGate NOC Monitor 云账号。
 
