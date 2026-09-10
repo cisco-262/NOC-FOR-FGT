@@ -1146,7 +1146,7 @@ figcaption {
 }
 
 
-/* NOC for FGT compatibility and screenshot updates */
+/* FortiGate NOC Monitor compatibility and screenshot updates */
 .compat-list {
   display: grid;
   gap: 12px;
