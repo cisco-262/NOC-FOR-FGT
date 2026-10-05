@@ -673,6 +673,52 @@ figcaption {
   padding: 20px;
 }
 
+.capacity-card {
+  grid-column: 1 / -1;
+  padding: clamp(24px, 4vw, 38px);
+  border: 1px solid rgba(67, 217, 255, 0.28);
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(63, 140, 255, 0.16), rgba(67, 217, 255, 0.07));
+}
+
+.capacity-card h3 {
+  margin: 4px 0 10px;
+  font-size: clamp(24px, 3vw, 34px);
+}
+
+.capacity-values,
+.capacity-packs {
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.capacity-values {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.capacity-packs {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.capacity-values span,
+.capacity-packs span {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 15px;
+  border: 1px solid rgba(164, 201, 255, 0.2);
+  border-radius: 10px;
+  background: rgba(5, 18, 38, 0.48);
+  color: var(--muted);
+}
+
+.capacity-values strong,
+.capacity-packs strong {
+  color: var(--white);
+  font-size: 24px;
+}
+
 .security-section {
   display: grid;
   grid-template-columns: minmax(0, 0.8fr) minmax(340px, 1.2fr);
@@ -1040,6 +1086,7 @@ figcaption {
 
   .feature-columns,
   .metric-grid,
+  .capacity-packs,
   .support-grid,
   .support-columns,
   .support-contact {
@@ -1115,6 +1162,11 @@ figcaption {
   .metric-grid article,
   .device-grid article {
     min-height: 0;
+  }
+
+  .capacity-values,
+  .capacity-packs {
+    grid-template-columns: 1fr;
   }
 
   .fortios-matrix {

@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>FortiGate NOC Monitor - FortiGate Monitoring App for iPhone and iPad</title>
-  <meta name="description" content="FortiGate NOC Monitor is a FortiGate monitoring app for iPhone and iPad. Monitor system health, interfaces, WAN traffic, topology, sessions, and historical trends from one mobile dashboard.">
+  <meta name="description" content="FortiGate NOC Monitor for iPhone and iPad provides unified multi-device health, interfaces, WAN traffic, SSL VPN sessions, topology, FortiGuard status, and historical trends.">
   <meta name="keywords" content="FortiGate monitoring, FortiGate dashboard, FortiGate mobile app, network monitoring, firewall monitoring">
   <link rel="canonical" href="https://fgt.opshome.run/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="FortiGate NOC Monitor - FortiGate Monitoring App for iPhone and iPad">
-  <meta property="og:description" content="A mobile FortiGate monitoring app for iPhone and iPad. Monitor health, interfaces, WAN traffic, topology, sessions, and historical trends from one dashboard.">
+  <meta property="og:description" content="Unified multi-device FortiGate health, interfaces, WAN traffic, SSL VPN sessions, topology, FortiGuard status, and historical trends on iPhone and iPad.">
   <meta property="og:url" content="https://fgt.opshome.run/">
   <meta property="og:image" content="https://fgt.opshome.run/assets/images/fgt-og-1200x630.jpg">
   <meta property="og:image:width" content="1200">
@@ -18,7 +18,7 @@
   <meta property="og:site_name" content="FortiGate NOC Monitor">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="FortiGate NOC Monitor - FortiGate Monitoring App for iPhone and iPad">
-  <meta name="twitter:description" content="FortiGate NOC Monitor for iPhone and iPad. Monitor health, interfaces, WAN traffic, topology, sessions, and historical trends from one mobile dashboard.">
+  <meta name="twitter:description" content="Unified multi-device FortiGate health, interfaces, WAN traffic, SSL VPN sessions, topology, FortiGuard status, and historical trends on iPhone and iPad.">
   <meta name="twitter:image" content="https://fgt.opshome.run/assets/images/fgt-og-1200x630.jpg">
   <meta name="twitter:image:alt" content="FortiGate NOC Monitor">
   <link rel="icon" href="favicon.ico" sizes="any">
@@ -27,7 +27,7 @@
     href="assets/images/hero-live-monitor.png"
     type="image/png"
     fetchpriority="high">
-  <link rel="stylesheet" href="assets/styles.css?v=20260826-topology-fix2">
+  <link rel="stylesheet" href="assets/styles.css?v=20261005-fleet-m0">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -54,7 +54,7 @@
         "name": "FortiGate NOC Monitor",
         "applicationCategory": "UtilitiesApplication",
         "operatingSystem": "iOS, iPadOS",
-        "description": "FortiGate NOC Monitor is a FortiGate monitoring app for iPhone and iPad. Monitor system health, interfaces, WAN traffic, topology, sessions, and historical trends from one mobile dashboard.",
+        "description": "FortiGate NOC Monitor provides unified multi-device health, interfaces, WAN traffic, SSL VPN sessions, topology, FortiGuard status, and historical trends on iPhone and iPad.",
         "url": "https://fgt.opshome.run/",
         "downloadUrl": "https://apps.apple.com/us/app/noc-for-fgt/id6796713266",
         "publisher": {
@@ -107,7 +107,7 @@
           <p class="eyebrow">Firewall health dashboard for iPhone and iPad</p>
           <h1>FortiGate NOC Monitor<br>for iPhone and iPad</h1>
           <p class="hero-copy">
-            Monitor FortiGate health, interfaces, WAN traffic, sessions, and system status directly from your mobile device.
+            Monitor unified fleet health, interfaces, WAN traffic, SSL VPN sessions, FortiGuard status, and historical trends directly from your mobile device.
           </p>
           <p class="hero-support">
             Built for network engineers and IT administrators who need fast FortiGate visibility without opening a full management console.
@@ -158,8 +158,8 @@
             <p>Physical interfaces, logical interfaces, VLAN relationships, WAN traffic, and interface status.</p>
           </article>
           <article>
-            <h3>Operational Insights</h3>
-            <p>FortiGuard status, connection information, device details, and operational attention signals.</p>
+            <h3>Fleet Health</h3>
+            <p>See online, abnormal, offline, 2FA, and in-progress states across devices, with local and external environments clearly grouped.</p>
           </article>
           <article>
             <h3>Troubleshooting</h3>
@@ -199,6 +199,7 @@
           <ul>
             <li>Interface status</li>
             <li>WAN upload and download</li>
+            <li>SSL VPN sessions and users</li>
             <li>Roles and IP information</li>
             <li>VLAN and parent interface relationships</li>
           </ul>
@@ -206,8 +207,10 @@
         <article>
           <h3>Operations</h3>
           <ul>
-            <li>Multiple FortiGate devices</li>
-            <li>Refresh and health status</li>
+            <li>Unified multi-device health</li>
+            <li>Refresh all devices</li>
+            <li>Local and external grouping</li>
+            <li>FortiGuard status and optional alerts</li>
             <li>Diagnostics</li>
             <li>Backup and restore</li>
             <li>Demo Mode</li>
@@ -264,6 +267,7 @@
           <span>WAN Traffic</span>
           <span>1H</span>
           <span>6H</span>
+          <span>12H</span>
           <span>24H</span>
         </div>
         <p class="fine-print">
@@ -317,25 +321,32 @@
     <section id="devices" class="section split-section">
       <div class="section-copy">
         <p class="eyebrow">Multi-device management</p>
-        <h2>Monitor more than one FortiGate.</h2>
+        <h2>See the health of your FortiGate fleet at a glance.</h2>
         <p>
-          Keep multiple FortiGate devices organized in one mobile workspace and move quickly between environments.
+          Review device health in one mobile workspace, refresh all devices, and move quickly from fleet-level attention signals to a specific FortiGate.
         </p>
       </div>
       <div class="device-grid" aria-label="Device management highlights">
-        <article><span>Device Portal</span><strong>Organized workspace</strong></article>
-        <article><span>Status</span><strong>Reachability and health</strong></article>
-        <article><span>Name and Host</span><strong>Clear device identity</strong></article>
-        <article><span>Last connected</span><strong>Connection context</strong></article>
+        <article><span>Unified Overview</span><strong>Online, abnormal, offline, and 2FA states</strong></article>
+        <article><span>Refresh All</span><strong>Up to 3 active checks at a time</strong></article>
+        <article><span>Local / External</span><strong>Automatic address grouping</strong></article>
+        <article><span>Health Snapshot</span><strong>CPU, memory, sessions, WAN, and FortiGuard</strong></article>
       </div>
       <div class="capacity-card">
         <p class="eyebrow">Scalable Device Capacity</p>
         <h3>Start small. Expand as your environment grows.</h3>
-        <p>Manage multiple FortiGate devices from one iPhone or iPad. The app includes capacity for 5 devices and can be expanded up to 65 managed devices with capacity upgrades.</p>
+        <p>Manage multiple FortiGate devices from one iPhone or iPad. Five devices are included. Optional one-time, non-consumable device-slot packs can be owned together and permanently stack.</p>
         <div class="capacity-values">
           <span><strong>5</strong> Included devices</span>
-          <span><strong>65</strong> Maximum expandable capacity</span>
+          <span><strong>70</strong> Maximum total capacity</span>
         </div>
+        <div class="capacity-packs" aria-label="Available device capacity packs">
+          <span><strong>M0</strong> +5 slots</span>
+          <span><strong>M1</strong> +10 slots</span>
+          <span><strong>M2</strong> +20 slots</span>
+          <span><strong>M3</strong> +30 slots</span>
+        </div>
+        <p class="fine-print">Each pack can be purchased once. Purchases are handled by Apple and can be restored with the same Apple Account.</p>
       </div>
     </section>
 
@@ -476,7 +487,11 @@
         </details>
         <details>
           <summary>Can I monitor multiple FortiGate devices?</summary>
-          <p>Yes. FortiGate NOC Monitor supports managing multiple configured FortiGate devices from the app.</p>
+          <p>Yes. Five devices are included. M0 (+5), M1 (+10), M2 (+20), and M3 (+30) are optional permanent capacity packs that can stack for a maximum total capacity of 70 devices.</p>
+        </details>
+        <details>
+          <summary>Can I check all devices together?</summary>
+          <p>Yes. The unified health overview can refresh all saved devices, with up to three active checks at a time. Results appear as each device completes, so an offline device does not block the rest of the fleet.</p>
         </details>
         <details>
           <summary>Can I view historical performance trends?</summary>

@@ -58,6 +58,8 @@
         <a class="support-card" href="#connection"><strong>Connection Help</strong><span>Troubleshoot HTTPS management access, credentials, and network reachability.</span></a>
         <a class="support-card" href="#two-factor"><strong>Two-Factor Authentication</strong><span>Use FortiToken / OTP when 2FA is enabled on the configured FortiGate account.</span></a>
         <a class="support-card" href="#demo"><strong>Demo Mode</strong><span>Explore the main monitoring experience without connecting to a physical FortiGate.</span></a>
+        <a class="support-card" href="#fleet-health"><strong>Fleet Health</strong><span>Understand multi-device status, grouping, and Refresh All.</span></a>
+        <a class="support-card" href="#capacity"><strong>Device Capacity</strong><span>Review included capacity, M0–M3 packs, and purchase restoration.</span></a>
         <a class="support-card" href="#history"><strong>Historical Trends</strong><span>Understand available CPU, memory, session, and traffic history.</span></a>
         <a class="support-card" href="#backup"><strong>Backup & Restore</strong><span>Export and import supported device configuration information.</span></a>
       </div>
@@ -92,6 +94,7 @@
             <li>Active sessions</li>
             <li>Interfaces and WAN traffic</li>
             <li>Topology and FortiGuard status</li>
+            <li>SSL VPN sessions and connected users</li>
             <li>Historical trends and diagnostics</li>
           </ul>
         </article>
@@ -150,6 +153,24 @@
         <h2>System and network visibility.</h2>
       </div>
       <p>FortiGate NOC Monitor can display system and network monitoring information such as CPU, memory, active sessions, interfaces, and traffic.</p>
+    </section>
+
+    <section id="fleet-health" class="section support-section">
+      <div class="section-heading">
+        <p class="eyebrow">Multi-device health</p>
+        <h2>Check the fleet without opening every device.</h2>
+      </div>
+      <p>The device portal summarizes online, abnormal, offline, 2FA-required, unchecked, and in-progress states. Health cards can include CPU, memory, active sessions, WAN state, FortiGuard status, and the last successful check.</p>
+      <p>Refresh All runs up to three active device checks at a time. Completed results appear immediately, and a timed-out device can retry without blocking the remaining devices. Local and external grouping is organizational only and does not change the configured connection address.</p>
+    </section>
+
+    <section id="capacity" class="section support-section light-section">
+      <div class="section-heading">
+        <p class="eyebrow">Device capacity</p>
+        <h2>Five included devices, with permanent expansion packs.</h2>
+      </div>
+      <p>The app includes capacity for 5 saved devices. Optional non-consumable packs add M0 (+5), M1 (+10), M2 (+20), or M3 (+30) device slots. Each pack can be purchased once, and owned packs stack for a maximum total capacity of 70 devices.</p>
+      <p>Use <strong>Restore Purchases</strong> in Device Capacity to recover eligible purchases made with the same Apple Account. Available products and localized prices are provided by the App Store.</p>
     </section>
 
     <section id="history" class="section support-section">
@@ -217,7 +238,7 @@
         </details>
         <details>
           <summary>Can I monitor multiple FortiGate devices?</summary>
-          <p>Yes. FortiGate NOC Monitor supports managing multiple configured FortiGate devices from the app.</p>
+          <p>Yes. Five devices are included. Optional M0 (+5), M1 (+10), M2 (+20), and M3 (+30) packs permanently stack up to a total capacity of 70 devices.</p>
         </details>
         <details>
           <summary>Why do I need to enter my password again after importing a backup?</summary>
